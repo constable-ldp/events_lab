@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     pNode.appendChild(category)
     listNode.appendChild(h2Node)
     listNode.appendChild(h3Node)
-    listNode.appendChild(pNode)    
+    listNode.appendChild(pNode)
+    event.target.reset()
   })
 
 })
